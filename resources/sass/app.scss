@@ -8,3 +8,9 @@
 @import 'bootstrap/scss/bootstrap';
 
 
+html{
+ position: relative;
+}
+body{
+ box-sizing: border-box;
+}

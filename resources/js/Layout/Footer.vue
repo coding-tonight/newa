@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section class="footer bg-dark navbar-dark text-white p-5">
      <div class="container">
        <div class="">
          <h4>Contact information</h4>
@@ -28,10 +28,11 @@
 </script>
 
 <style lang="scss" scoped>
-  Footer{
+  .footer{
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
     margin-top: auto;
-    background-color: aliceblue;
   }
 </style>

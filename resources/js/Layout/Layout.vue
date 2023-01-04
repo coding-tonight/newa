@@ -9,6 +9,7 @@
    <Footer />
  </div>
 </template>
+
 <script>
  import Navbar from './Navbar.vue'
  import Footer from './Footer.vue'
@@ -24,6 +25,9 @@
  }
 </script>
 
-<!-- <style lang="scss"  scoped>
+<style lang="scss">
+.content{
+  margin-bottom:  10rem;
+}
   
-</style> -->
+</style>
