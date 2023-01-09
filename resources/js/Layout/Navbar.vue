@@ -10,8 +10,11 @@
   </nav>
  </div>
   <div class="container  d-flex align-items-center justify-content-between bg-dark text-white">
-    <div>categories</div>
-     <ul class="d-flex align-items-center gap-4 align-items-center justify-content-center">
+    <div class="dropdown">
+      <Font-icon icon="filter" />
+      categories
+    </div>
+     <ul class="d-flex align-items-center gap-4 align-items-center justify-content-center  position-relative" style="top: 10px;">
        <li class="nav-link">About</li>
        <li class="nav-link">Contact</li>
        <li class="nav-link">lastest</li>
