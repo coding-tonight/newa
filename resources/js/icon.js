@@ -1,5 +1,5 @@
-import { faFilter } from "@fortawesome/free-solid-svg-icons";
+import { faFilter , faMagnifyingGlass  } from "@fortawesome/free-solid-svg-icons";
 
 export default{
-    faFilter,
+    faFilter, faMagnifyingGlass
 }

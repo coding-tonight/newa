@@ -1,26 +1,31 @@
 <template>
-<section class="navbar-container">
+<section class="navbar-container sticky-top">
 <div class="container-fluid">
-  <nav class="navbar  justify-content-between">
+  <nav class="navbar justify-content-between">
      <router-link to="/" class="navbar-brand text-white">Newa Documents</router-link>
-    <form class="d-flex w-50">
+    <form class="d-flex w-50 position-relative">
       <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-primary my-2 my-sm-0 d-inline" type="submit">Search</button>
+      <button class=" btn my-2 my-sm-0 d-inline position-absolute end-0" type="submit">
+        <Font-icon 
+         icon="magnifying-glass" 
+         class=""
+        /> 
+      </button>
     </form>
   </nav>
  </div>
-  <div class="container  d-flex align-items-center justify-content-between bg-dark text-white">
+</section>
+<!-- <div class="container  d-flex align-items-center justify-content-between bg-dark text-white">
     <div class="dropdown">
-      <Font-icon icon="filter" />
+     
       categories
     </div>
      <ul class="d-flex align-items-center gap-4 align-items-center justify-content-center  position-relative" style="top: 10px;">
-       <li class="nav-link">About</li>
+       <li class="nav-link"><router-link to="">home</router-link></li>
        <li class="nav-link">Contact</li>
        <li class="nav-link">lastest</li>
      </ul>
-  </div>
-</section>
+  </div> -->
 </template>
 
 <script>
