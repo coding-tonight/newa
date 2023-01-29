@@ -1,49 +1,36 @@
 <template>
-<section class="navbar-container sticky-top">
-<div class="container-fluid">
-  <nav class="navbar justify-content-between">
-     <router-link to="/" class="navbar-brand text-white">Newa Documents</router-link>
-    <form class="d-flex w-50 position-relative">
-      <input class="form-control mr-sm-2 w-100" type="search" placeholder="Search" aria-label="Search">
-      <button class=" btn my-2 my-sm-0 d-inline position-absolute end-0" type="submit">
-        <Font-icon 
-         icon="magnifying-glass" 
-         class=""
-        /> 
-      </button>
-    </form>
-  </nav>
- </div>
-</section>
-<!-- <div class="container  d-flex align-items-center justify-content-between bg-dark text-white">
-    <div class="dropdown">
-     
-      categories
+  <section class="header">
+    <div class="row container-fluid">
+       <div class="col-md-6">
+          <span class="me-3">+977-1099098</span>
+          <span class="">kathmandu , Tinkune</span>
+       </div>
+        <div class="col-md-6">
+          <router-link to="/">Wish list</router-link>
+          <router-link to="/">My Account</router-link>
+          <router-link to="/">Cart</router-link>
+          <router-link to="/">Contact</router-link>
+        </div>
     </div>
-     <ul class="d-flex align-items-center gap-4 align-items-center justify-content-center  position-relative" style="top: 10px;">
-       <li class="nav-link"><router-link to="">home</router-link></li>
-       <li class="nav-link">Contact</li>
-       <li class="nav-link">lastest</li>
-     </ul>
-  </div> -->
+    <nav class="navbar">
+       <div class="container">
+          <label for="">
+             Logo
+          </label>
+       </div>
+    </nav>
+  </section>
 </template>
 
 <script>
- import { ref } from 'vue'
+ 
   export default{
    setup(){
-    const background = ref('url("/storage/Homepage/background.jpg")');
-    return{
-      background
-    }
+   
    }
   }
 </script>
 
 <style lang="scss">
- .navbar-container{
-   .container-fluid{
-    background-color: #31525B;
-   }
- }
+
 </style>
